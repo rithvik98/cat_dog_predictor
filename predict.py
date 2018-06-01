@@ -53,5 +53,3 @@ else:
 
 print("\nDog: ",round(100*result[0][0],3))
 print("Cat: ",round(100*result[0][1],3))
-
-# result is of this format [probabiliy_of_rose probability_of_sunflower]
