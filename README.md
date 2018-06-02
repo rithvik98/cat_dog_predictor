@@ -7,13 +7,24 @@ I uploaded the meta file containing the weights so the code will execute. Incase
 
 Larger datasets give accurate results. I have used a dataset of 4000 images each to train this model. 
 
-To execute the model, open command prompt and go to the folder containing predict.py (I am assuming that you have python and all the modules required pre-installed else install them.). execute the code by entering:
+To execute the model, open command prompt and go to the folder containing predict.py (I am assuming that you have python and all the modules required pre-installed else install them). Execute the code by entering:
  
  > python predict.py image_location
  
- image_location is the path to the image which you want to classify.
+image_location is the path to the image which you want to classify.
  
- The output shows the percentages also.
+The output shows the percentages also.
+  
+ The pre-requisites are:
+  
+ 1. Python - install from 
+ >  https://www.python.org/downloads/ 
+ 
+ 2. CV2 -  Go to command line a enter 
+ >  pip install opencv-python
+ 
+ 3. sklearn
+ >  pip insltall sklearn
  
  
 
